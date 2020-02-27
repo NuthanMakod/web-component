@@ -1,0 +1,24 @@
+{
+  "name": "with-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "Nuthan S",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "extract-loader": "^4.0.3",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^1.1.3",
+    "to-string-loader": "^1.1.6",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
